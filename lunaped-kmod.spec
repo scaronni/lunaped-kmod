@@ -46,6 +46,8 @@ Provides:   %{kmod_name}-kmod = %{?epoch:%{epoch}:}%{version}-%{release}
 Requires:   module-init-tools
 
 %description -n kmod-%{kmod_name}
+Luna PED Driver.
+
 This package provides the %{kmod_name} kernel module(s) built for the Linux kernel
 using the %{_target_cpu} family of processors.
 
